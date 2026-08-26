@@ -549,7 +549,7 @@ keyBox.BorderSizePixel = 0
 keyBox.Text = ""
 
 keyBox.PlaceholderText =
-    "Enter SEAL or PlatoBoost key..."
+    "Enter SEAL- or FREE_..."
 
 keyBox.ClearTextOnFocus = false
 keyBox.TextEditable = true
@@ -632,7 +632,7 @@ getKey.Position = UDim2.new(
 
 getKey.BackgroundColor3 = COLORS.surface2
 getKey.BorderSizePixel = 0
-getKey.Text = "Get Key"
+getKey.Text = "Get 24h Key"
 
 getKey.TextColor3 = Color3.fromRGB(
     235,
