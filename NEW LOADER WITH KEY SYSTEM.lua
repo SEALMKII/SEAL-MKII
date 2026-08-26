@@ -549,7 +549,7 @@ keyBox.BorderSizePixel = 0
 keyBox.Text = ""
 
 keyBox.PlaceholderText =
-    "Enter SEAL- or FREE_..."
+    "Enter KEY"
 
 keyBox.ClearTextOnFocus = false
 keyBox.TextEditable = true
@@ -632,7 +632,7 @@ getKey.Position = UDim2.new(
 
 getKey.BackgroundColor3 = COLORS.surface2
 getKey.BorderSizePixel = 0
-getKey.Text = "Get Key (24)"
+getKey.Text = "Get Key (24h)"
 
 getKey.TextColor3 = Color3.fromRGB(
     235,
@@ -1757,7 +1757,7 @@ getKey.MouseButton1Click:Connect(function()
     end
 
     setStatus(
-        "Creating PlatoBoost link...",
+        "Creating key link...",
         COLORS.muted
     )
 
