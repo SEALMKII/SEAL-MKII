@@ -21,7 +21,7 @@ local API_URL = "https://seal-hub-key-mlnz.onrender.com"
 
 local DISCORD_URL = "https://discord.gg/bw8sBhnCN"
 
-local LOADER_VERSION = "2.0"
+local LOADER_VERSION = "1.0"
 
 local SAVE_KEY_LOCALLY = true
 
