@@ -519,7 +519,7 @@ serverStatus.Position = UDim2.new(
 )
 
 serverStatus.BackgroundTransparency = 1
-serverStatus.Text = "Render: Checking..."
+serverStatus.Text = "SEAL: Checking..."
 serverStatus.TextColor3 = COLORS.warning
 serverStatus.Font = Enum.Font.Gotham
 serverStatus.TextSize = 12
