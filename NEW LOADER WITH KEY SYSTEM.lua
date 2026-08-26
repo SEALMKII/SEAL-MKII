@@ -19,7 +19,7 @@
 
 local API_URL = "https://seal-hub-key-mlnz.onrender.com"
 
-local DISCORD_URL = "https://discord.gg/YOURINVITE"
+local DISCORD_URL = "https://discord.gg/bw8sBhnCN"
 
 local LOADER_VERSION = "2.2.0"
 
