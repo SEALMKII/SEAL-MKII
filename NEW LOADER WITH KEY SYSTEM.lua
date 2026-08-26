@@ -902,7 +902,7 @@ end
 
 local function checkServer()
     setServer(
-        "Render: Checking...",
+        "SEAL: Checking...",
         COLORS.warning
     )
 
@@ -925,12 +925,12 @@ local function checkServer()
         serverOnline = false
 
         setServer(
-            "Render: Offline",
+            "SEAL: Offline",
             COLORS.error
         )
 
         return false,
-            "Could not reach Render."
+            "Could not reach SEAL."
     end
 
     local code =
@@ -967,7 +967,7 @@ local function checkServer()
         end
 
         setServer(
-            "Render: Online" ..
+            "SEAL: Online" ..
             suffix,
 
             COLORS.success
@@ -983,7 +983,7 @@ local function checkServer()
         serverOnline = true
 
         setServer(
-            "Render: Online",
+            "SEAL: Online",
             COLORS.success
         )
 
@@ -993,7 +993,7 @@ local function checkServer()
     serverOnline = false
 
     setServer(
-        "Render: Offline",
+        "SEAL: Offline",
         COLORS.error
     )
 
@@ -1149,14 +1149,14 @@ local function activateKey(key)
         serverOnline = false
 
         setServer(
-            "Render: Offline",
+            "SEAL: Offline",
             COLORS.error
         )
 
         return nil, {
             code = "NETWORK",
             message =
-                "Could not connect to Render."
+                "Could not connect to SEAL."
         }
     end
 
@@ -1521,7 +1521,7 @@ unlockScript = function(isAutoLogin)
             setBusy(false)
 
             setStatus(
-                "Render is offline or unreachable.",
+                "SEAL is offline or unreachable.",
                 COLORS.error
             )
 
@@ -2016,7 +2016,7 @@ task.spawn(function()
         setStatus(
             healthError
             or
-            "Render is offline.",
+            "SEAL is offline.",
 
             COLORS.error
         )
