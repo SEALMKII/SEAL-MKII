@@ -632,7 +632,7 @@ getKey.Position = UDim2.new(
 
 getKey.BackgroundColor3 = COLORS.surface2
 getKey.BorderSizePixel = 0
-getKey.Text = "Get 24h Key"
+getKey.Text = "Get Key (24)"
 
 getKey.TextColor3 = Color3.fromRGB(
     235,
@@ -1386,7 +1386,7 @@ local function friendlyAuthError(err)
         return "This key belongs to another Roblox account."
 
     elseif code == "PLATO_KEY_INVALID" then
-        return "Invalid or expired PlatoBoost key."
+        return "Invalid or expired key."
 
     elseif code == "PLATO_ACTIVE_KEY" then
         return message
@@ -1800,7 +1800,7 @@ getKey.MouseButton1Click:Connect(function()
 
     copyToClipboard(
         link,
-        "PlatoBoost Get Key link copied."
+        "Key link copied open it in browser."
     )
 end)
 
